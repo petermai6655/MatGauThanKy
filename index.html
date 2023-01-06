@@ -66,13 +66,24 @@
 <link rel="stylesheet" id="elementor-post-3049-css" href="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/elementor/css/post-3049.css?ver=1672916849" media="all">
 <link rel="stylesheet" id="font-awesome-5-all-css" href="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.9.2" media="all">
 <link rel="stylesheet" id="font-awesome-4-shim-css" href="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.9.2" media="all">
-<link rel="stylesheet" id="elementor-post-95-css" href="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/elementor/css/post-95.css?ver=1672916859" media="all">
+<link rel="stylesheet" id="elementor-post-95-css" href="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/elementor/css/post-95.css?ver=1672969681" media="all">
 <link rel="stylesheet" id="hfe-widgets-style-css" href="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.13" media="all">
+<link rel="stylesheet" id="dashicons-css" href="https://petermai6655.github.io/MatGauThanKy/wp-includes/css/dashicons.min.css?ver=6.1.1" media="all">
+<link rel="stylesheet" id="cfvsw_swatches_product-css" href="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/variation-swatches-woo/assets/css/swatches.css?ver=1.0.6" media="all">
+<style id="cfvsw_swatches_product-inline-css">.cfvsw-tooltip{background:#000000;color:#ffffff;} .cfvsw-tooltip:before{background:#000000;}:root {--cfvsw-swatches-font-size: 12px;--cfvsw-swatches-border-color: #000000;--cfvsw-swatches-border-color-hover: #00000080;--cfvsw-swatches-tooltip-font-size: 12px;}</style>
 <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.1.1" media="all">
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-regular-css" href="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3" media="all">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}<\/div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}<\/div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}<\/div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p>Sorry, this product is unavailable. Please choose a different combination.<\/p>
+</script>
 <!--[if IE]>
 <script src='http://localhost/matgauthanky/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=3.9.4' id='astra-flexibility-js'></script>
 <script id='astra-flexibility-js-after'>
@@ -114,7 +125,7 @@ flexibility(document.documentElement);
 											<div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
 									<div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
 											<div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
-					<span class="site-logo-img"><a href="https://petermai6655.github.io/MatGauThanKy/" class="custom-logo-link" rel="home" aria-current="page"><img width="2315" height="906" src="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo.png" class="custom-logo" alt="Mật Gấu Thần Kỳ" decoding="async" srcset="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo.png 2315w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-600x235.png 600w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-300x117.png 300w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-1024x401.png 1024w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-768x301.png 768w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-1536x601.png 1536w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-2048x802.png 2048w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-150x59.png 150w" sizes="(max-width: 2315px) 100vw, 2315px"></a></span>				</div>
+					<span class="site-logo-img"><a href="https://petermai6655.github.io/MatGauThanKy/" class="custom-logo-link" rel="home" aria-current="page"><img width="2315" height="906" src="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo.png" class="custom-logo" alt="Mật Gấu Thần Kỳ" decoding="async" srcset="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo.png 2315w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-300x117.png 300w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-1024x401.png 1024w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-768x301.png 768w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-1536x601.png 1536w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-2048x802.png 2048w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-600x235.png 600w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-150x59.png 150w" sizes="(max-width: 2315px) 100vw, 2315px"></a></span>				</div>
 			<!-- .site-branding -->
 					</div>
 				<div class="ast-builder-menu-1 ast-builder-menu ast-flex ast-builder-menu-1-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-hb-menu-1">
@@ -171,7 +182,7 @@ flexibility(document.documentElement);
 													<div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
 										<div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
 											<div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
-					<span class="site-logo-img"><a href="https://petermai6655.github.io/MatGauThanKy/" class="custom-logo-link" rel="home" aria-current="page"><img width="2315" height="906" src="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo.png" class="custom-logo" alt="Mật Gấu Thần Kỳ" decoding="async" srcset="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo.png 2315w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-600x235.png 600w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-300x117.png 300w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-1024x401.png 1024w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-768x301.png 768w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-1536x601.png 1536w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-2048x802.png 2048w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-150x59.png 150w" sizes="(max-width: 2315px) 100vw, 2315px"></a></span>				</div>
+					<span class="site-logo-img"><a href="https://petermai6655.github.io/MatGauThanKy/" class="custom-logo-link" rel="home" aria-current="page"><img width="2315" height="906" src="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo.png" class="custom-logo" alt="Mật Gấu Thần Kỳ" decoding="async" srcset="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo.png 2315w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-300x117.png 300w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-1024x401.png 1024w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-768x301.png 768w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-1536x601.png 1536w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-2048x802.png 2048w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-600x235.png 600w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-150x59.png 150w" sizes="(max-width: 2315px) 100vw, 2315px"></a></span>				</div>
 			<!-- .site-branding -->
 					</div>
 									</div>
@@ -256,7 +267,7 @@ flexibility(document.documentElement);
 .elementor-widget-image-box .elementor-image-box-content{width:100%}@media (min-width:768px){.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{display:flex}.elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper{text-align:right;flex-direction:row-reverse}.elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper{text-align:left;flex-direction:row}.elementor-widget-image-box.elementor-position-top .elementor-image-box-img{margin:auto}.elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper{align-items:flex-start}.elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper{align-items:center}.elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper{align-items:flex-end}}@media (max-width:767px){.elementor-widget-image-box .elementor-image-box-img{margin-left:auto!important;margin-right:auto!important;margin-bottom:15px}}.elementor-widget-image-box .elementor-image-box-img{display:inline-block}.elementor-widget-image-box .elementor-image-box-title a{color:inherit}.elementor-widget-image-box .elementor-image-box-wrapper{text-align:center}.elementor-widget-image-box .elementor-image-box-description{margin:0}</style>
 <div class="elementor-image-box-wrapper"><div class="elementor-image-box-content">
 <h1 class="elementor-image-box-title">Join The Organic Movement!</h1>
-<p class="elementor-image-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+<p class="elementor-image-box-description">Help create a more sustainable food system while enhancing your diet and wellbeing.</p>
 </div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-d66ca90 elementor-align-left elementor-mobile-align-center elementor-tablet-align-left elementor-widget elementor-widget-button" data-id="d66ca90" data-element_type="widget" data-widget_type="button.default">
@@ -294,7 +305,7 @@ flexibility(document.documentElement);
 						Free Shipping					</a>
 				</h4>
 									<p class="elementor-icon-box-description">
-						Above $5 Only					</p>
+						Above $35 Only					</p>
 							</div>
 		</div>
 				</div>
@@ -314,10 +325,10 @@ flexibility(document.documentElement);
 						<div class="elementor-icon-box-content">
 				<h4 class="elementor-icon-box-title">
 					<a href="#">
-						Certified Organic					</a>
+						100% Satisfaction					</a>
 				</h4>
 									<p class="elementor-icon-box-description">
-						100% Guarantee 					</p>
+						Guarantee 					</p>
 							</div>
 		</div>
 				</div>
@@ -453,7 +464,7 @@ flexibility(document.documentElement);
 				<div class="elementor-widget-container">
 			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content">
 <h3 class="elementor-image-box-title">Farm Fresh Fruits</h3>
-<p class="elementor-image-box-description">Ut sollicitudin quam vel purus tempus, vel eleifend felis varius. </p>
+<p class="elementor-image-box-description">Enjoy superior quality, more flavorful, and healthier fruits.</p>
 </div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-4e3eaa1 elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="4e3eaa1" data-element_type="widget" data-widget_type="button.default">
@@ -478,9 +489,7 @@ flexibility(document.documentElement);
 				<div class="elementor-widget-container">
 			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content">
 <h3 class="elementor-image-box-title">Fresh Vegetables</h3>
-<p class="elementor-image-box-description">Aliquam porta justo nibh, id laoreet sapien sodales vitae justo.
-
-</p>
+<p class="elementor-image-box-description">Add flavor and texture to your meals making your food more enjoyable.</p>
 </div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-c75e82f elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="c75e82f" data-element_type="widget" data-widget_type="button.default">
@@ -505,7 +514,7 @@ flexibility(document.documentElement);
 				<div class="elementor-widget-container">
 			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content">
 <h3 class="elementor-image-box-title">Organic Legume</h3>
-<p class="elementor-image-box-description">Phasellus sed urna mattis, viverra libero sed, aliquam est.</p>
+<p class="elementor-image-box-description">An excellent addition to a balanced diet </p>
 </div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-6367bd1 elementor-align-left elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="6367bd1" data-element_type="widget" data-widget_type="button.default">
@@ -649,8 +658,8 @@ flexibility(document.documentElement);
 			<style>/*! elementor - v3.9.2 - 21-12-2022 */
 @charset "UTF-8";.elementor-star-rating{color:#ccd6df;font-family:eicons;display:inline-block}.elementor-star-rating i{display:inline-block;position:relative;font-style:normal;cursor:default}.elementor-star-rating i:before{content:"\e934";display:block;font-size:inherit;font-family:inherit;position:absolute;overflow:hidden;color:#f0ad4e;top:0;left:0}.elementor-star-rating .elementor-star-empty:before{content:none}.elementor-star-rating .elementor-star-1:before{width:10%}.elementor-star-rating .elementor-star-2:before{width:20%}.elementor-star-rating .elementor-star-3:before{width:30%}.elementor-star-rating .elementor-star-4:before{width:40%}.elementor-star-rating .elementor-star-5:before{width:50%}.elementor-star-rating .elementor-star-6:before{width:60%}.elementor-star-rating .elementor-star-7:before{width:70%}.elementor-star-rating .elementor-star-8:before{width:80%}.elementor-star-rating .elementor-star-9:before{width:90%}.elementor-star-rating__wrapper{display:flex;align-items:center}.elementor-star-rating__title{margin-right:10px}.elementor-star-rating--align-right .elementor-star-rating__wrapper{text-align:right;justify-content:flex-end}.elementor-star-rating--align-left .elementor-star-rating__wrapper{text-align:left;justify-content:flex-start}.elementor-star-rating--align-center .elementor-star-rating__wrapper{text-align:center;justify-content:center}.elementor-star-rating--align-justify .elementor-star-rating__title{margin-right:auto}@media (max-width:1024px){.elementor-star-rating-tablet--align-right .elementor-star-rating__wrapper{text-align:right;justify-content:flex-end}.elementor-star-rating-tablet--align-left .elementor-star-rating__wrapper{text-align:left;justify-content:flex-start}.elementor-star-rating-tablet--align-center .elementor-star-rating__wrapper{text-align:center;justify-content:center}.elementor-star-rating-tablet--align-justify .elementor-star-rating__title{margin-right:auto}}@media (max-width:767px){.elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper{text-align:right;justify-content:flex-end}.elementor-star-rating-mobile--align-left .elementor-star-rating__wrapper{text-align:left;justify-content:flex-start}.elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper{text-align:center;justify-content:center}.elementor-star-rating-mobile--align-justify .elementor-star-rating__title{margin-right:auto}}.last-star{letter-spacing:0}.elementor--star-style-star_unicode .elementor-star-rating{font-family:Arial,Helvetica,sans-serif}.elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before{content:"★"}</style>
 		<div class="elementor-star-rating__wrapper">
-						<div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating">
-<i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue" class="elementor-screen-only">5/5</span>
+						<div class="elementor-star-rating" title="4.5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating">
+<i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-5">&#xE934;</i> <span itemprop="ratingValue" class="elementor-screen-only">4.5/5</span>
 </div>		</div>
 				</div>
 				</div>
@@ -658,7 +667,7 @@ flexibility(document.documentElement);
 				<div class="elementor-widget-container">
 			<style>/*! elementor - v3.9.2 - 21-12-2022 */
 .elementor-testimonial-wrapper{overflow:hidden;text-align:center}.elementor-testimonial-wrapper .elementor-testimonial-content{font-size:1.3em;margin-bottom:20px}.elementor-testimonial-wrapper .elementor-testimonial-name{line-height:1.5;display:block}.elementor-testimonial-wrapper .elementor-testimonial-job{font-size:.85em;display:block}.elementor-testimonial-wrapper .elementor-testimonial-meta{width:100%;line-height:1}.elementor-testimonial-wrapper .elementor-testimonial-meta-inner{display:inline-block}.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-details,.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-image{display:table-cell;vertical-align:middle}.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-image img{width:60px;height:60px;border-radius:50%;-o-object-fit:cover;object-fit:cover;max-width:none}.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-aside .elementor-testimonial-image{padding-right:15px}.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-aside .elementor-testimonial-details{text-align:left}.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-top .elementor-testimonial-details,.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-top .elementor-testimonial-image{display:block}.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-top .elementor-testimonial-image{margin-bottom:20px}</style>		<div class="elementor-testimonial-wrapper">
-							<div class="elementor-testimonial-content">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+							<div class="elementor-testimonial-content">This is so convenient. I got my handpicked red chilies in a week. Seemed nicely packaged with love and care.</div>
 			
 						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
 				<div class="elementor-testimonial-meta-inner">
@@ -682,7 +691,7 @@ flexibility(document.documentElement);
 				<div class="elementor-widget-container">
 			<div class="elementor-image-box-wrapper"><div class="elementor-image-box-content">
 <h2 class="elementor-image-box-title">Deal Of The Day 15% Off On All Vegetables!</h2>
-<p class="elementor-image-box-description">I am text block. Click edit button to change this tex em ips.</p>
+<p class="elementor-image-box-description">Take advantage of this deal to maximize your savings!</p>
 </div></div>		</div>
 				</div>
 				<div class="elementor-element elementor-element-dbf6a33 elementor-widget elementor-widget-spacer" data-id="dbf6a33" data-element_type="widget" data-widget_type="spacer.default">
@@ -714,15 +723,15 @@ flexibility(document.documentElement);
 				<div class="elementor-widget-container">
 			
 		<div class="elementor-star-rating__wrapper">
-						<div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating">
-<i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue" class="elementor-screen-only">5/5</span>
+						<div class="elementor-star-rating" title="4/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating">
+<i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-empty">&#xE934;</i> <span itemprop="ratingValue" class="elementor-screen-only">4/5</span>
 </div>		</div>
 				</div>
 				</div>
 				<div class="elementor-element elementor-element-48976cf3 elementor-widget elementor-widget-testimonial" data-id="48976cf3" data-element_type="widget" data-widget_type="testimonial.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-testimonial-wrapper">
-							<div class="elementor-testimonial-content">Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+							<div class="elementor-testimonial-content">Loved the fresh orange juice. It doesn't have the same processed taste as other brands. Overall good experience.</div>
 			
 						<div class="elementor-testimonial-meta elementor-has-image elementor-testimonial-image-position-aside">
 				<div class="elementor-testimonial-meta-inner">
@@ -865,10 +874,10 @@ flexibility(document.documentElement);
 											<div class="site-footer-primary-section-1 site-footer-section site-footer-section-1">
 							<aside class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-4" aria-label="Footer Widget 4">
 			<div class="footer-widget-area-inner site-info-inner">
-<section id="media_image-1" class="widget widget_media_image"><a href="#"><img width="180" height="79" src="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2019/07/organic-store-white-logo.png" class="image wp-image-2478  attachment-180x79 size-180x79" alt="" decoding="async" loading="lazy" style="max-width: 100%; height: auto;"></a></section><section id="block-14" class="widget widget_block">
+<section id="media_image-1" class="widget widget_media_image"><a href="#"><img width="300" height="117" src="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo.png" class="image wp-image-6  attachment-medium size-medium" alt="" decoding="async" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-300x117.png 300w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-1024x401.png 1024w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-768x301.png 768w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-1536x601.png 1536w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-2048x802.png 2048w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-600x235.png 600w, https://petermai6655.github.io/MatGauThanKy/wp-content/uploads/2023/01/Logo-150x59.png 150w" sizes="(max-width: 300px) 100vw, 300px"></a></section><section id="block-14" class="widget widget_block">
 <div class="is-layout-flex wp-container-2 wp-block-columns">
 <div class="is-layout-flow wp-block-column" style="flex-basis:75%">
-<p><strong><em>Maecenas mi justo, interdum at consectetur vel, tristique et arcu. Ut quis eros blandit, ultrices diam in, elementum ex. Suspendisse quis faucibus urna. Suspendisse pellentesque.</em></strong></p>
+<p>Welcome to our site! Our mission is to provide you with the highest quality, healthiest foods available to help enhance your diet and wellbeing. We only stock foods that are free from artificial additives and preservatives. We have a wide selection of fresh produce, organic grains and nuts, plant-based proteins, and whole grains. We are passionate about helping people lead healthier lives, and we are dedicated to ensuring that our products meet the highest standards of quality and nutrition. So come on in and explore our selection of delicious and nutritious foods!</p>
 </div>
 </div>
 </section>
@@ -885,16 +894,15 @@ flexibility(document.documentElement);
 <li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://petermai6655.github.io/MatGauThanKy/checkout/">Checkout</a></li>
 <li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://petermai6655.github.io/MatGauThanKy/contact/">Contact</a></li>
 <li class="wp-block-pages-list__item current-menu-item menu-item-home"><a class="wp-block-pages-list__item__link" href="https://petermai6655.github.io/MatGauThanKy/" aria-current="page">Home</a></li>
-<li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://petermai6655.github.io/MatGauThanKy/my-account/">My account</a></li>
-<li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://petermai6655.github.io/MatGauThanKy/sample-page/">Sample Page</a></li>
+<li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://petermai6655.github.io/MatGauThanKy/privacy-policy/">Privacy Policy</a></li>
 <li class="wp-block-pages-list__item"><a class="wp-block-pages-list__item__link" href="https://petermai6655.github.io/MatGauThanKy/shop/">Shop</a></li>
 </ul></section>
 </div>		</aside>
 						</div>
 											<div class="site-footer-primary-section-3 site-footer-section site-footer-section-3">
 							<aside class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-1" aria-label="Footer Widget 1">
-			<div class="footer-widget-area-inner site-info-inner"><section id="text-1" class="widget widget_text"><h2 class="widget-title">Download Our Mobile App</h2>			<div class="textwidget">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquam gravida sollicitudin. Praesent porta enim mi, non tincidunt libero interdum sit amet.</p>
+			<div class="footer-widget-area-inner site-info-inner"><section id="text-1" class="widget widget_text"><h2 class="widget-title">Get Ready for our Mobile App</h2>			<div class="textwidget">
+<p><span data-tt="{&quot;paragraphStyle&quot;:{&quot;alignment&quot;:4,&quot;writingDirection&quot;:1}}">We are excited to announce that our mobile app is almost ready! It has been designed with a sleek, modern interface and packed with features to make it easy to interact with our website on the go. You&#8217;ll have access to all the same content from our website.</span></p>
 </div>
 		</section></div>		</aside>
 				<aside class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-3" aria-label="Footer Widget 3">
@@ -959,6 +967,13 @@ flexibility(document.documentElement);
 <script src="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.2.2" id="woocommerce-js"></script>
 <script id="wc-cart-fragments-js-extra">var wc_cart_fragments_params = {"ajax_url":"\/matgauthanky\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/matgauthanky\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_e09ce62159db0dedfa08ff49f687a78f","fragment_name":"wc_fragments_e09ce62159db0dedfa08ff49f687a78f","request_timeout":"5000"};</script>
 <script src="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.2.2" id="wc-cart-fragments-js"></script>
+<script src="https://petermai6655.github.io/MatGauThanKy/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script id="wp-util-js-extra">var _wpUtilSettings = {"ajax":{"url":"\/matgauthanky\/wp-admin\/admin-ajax.php"}};</script>
+<script src="https://petermai6655.github.io/MatGauThanKy/wp-includes/js/wp-util.min.js?ver=6.1.1" id="wp-util-js"></script>
+<script id="wc-add-to-cart-variation-js-extra">var wc_add_to_cart_variation_params = {"wc_ajax_url":"\/matgauthanky\/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination.","i18n_make_a_selection_text":"Please select some product options before adding this product to your cart.","i18n_unavailable_text":"Sorry, this product is unavailable. Please choose a different combination."};</script>
+<script src="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=7.2.2" id="wc-add-to-cart-variation-js"></script>
+<script id="cfvsw_swatches_product-js-extra">var cfvsw_swatches_settings = {"ajax_url":"https:\/\/petermai6655.github.io\/MatGauThanKy\/wp-admin\/admin-ajax.php","admin_url":"https:\/\/petermai6655.github.io\/MatGauThanKy\/wp-admin\/admin.php","remove_attr_class":"cfvsw-swatches-blur","html_design":"none","unavailable_text":"Selected variant is unavailable.","ajax_add_to_cart_nonce":"2ec3086f3b","tooltip_image":"","disable_out_of_stock":"1"};</script>
+<script src="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/variation-swatches-woo/assets/js/swatches.js?ver=1.0.6" id="cfvsw_swatches_product-js"></script>
 <script src="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.9.2" id="elementor-webpack-runtime-js"></script>
 <script src="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.9.2" id="elementor-frontend-modules-js"></script>
 <script src="https://petermai6655.github.io/MatGauThanKy/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
